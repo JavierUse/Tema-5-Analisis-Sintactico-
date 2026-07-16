@@ -1,1 +1,1 @@
-# Tema-5-An-lisis-Sint-ctico-
+# Tema-5-Analisis-Sintactico-
