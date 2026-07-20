@@ -110,7 +110,7 @@ F  -> ( E ) | NUM
 - Evaluacion del AST mediante recorrido recursivo
 - Recuperacion basica de errores (avance al siguiente token)
 
-**Archivo**: `implementaciones/ll_parser/parser_ll.py`
+**Archivo**: `parser_ll.py`
 
 #### Implementacion LR(1): Parser Tabla-Driven
 
@@ -136,7 +136,7 @@ F  -> ( E ) | NUM
 - Evaluacion bottom-up (los resultados se propagan desde las hojas)
 - Manejo de errores con deteccion de tokens inesperados
 
-**Archivo**: `implementaciones/lr_parser/parser_lr.py`
+**Archivo**: `parser_lr.py`
 
 #### Resultados de Prueba Comparativa
 
@@ -317,12 +317,9 @@ F  -> ( E ) | NUM
 ### Anexo A: Estructura de Directorios del Proyecto
 
 ```
-informe_pregunta2_3/
-├── implementaciones/
-│   ├── ll_parser/
-│   │   └── parser_ll.py
-│   └── lr_parser/
-│       └── parser_lr.py
+Actividad_2-3/
+├── parser_ll.py
+├── parser_lr.py
 └── informe_pregunta2_y_3.md
 ```
 
@@ -330,15 +327,18 @@ informe_pregunta2_3/
 
 **Requisitos**: Python 3.6 o superior
 
+**Asegúrate de estar en el directorio correcto:**
+```bash
+cd Actividad_2-3
+```
+
 **Ejecutar Parser LL(1)**:
 ```bash
-cd implementaciones/ll_parser
 python parser_ll.py
 ```
 
 **Ejecutar Parser LR(1)**:
 ```bash
-cd implementaciones/lr_parser
 python parser_lr.py
 ```
 
