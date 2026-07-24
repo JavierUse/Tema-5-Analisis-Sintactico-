@@ -1,0 +1,16 @@
+# Dependencias de Python para el proyecto docker-parser-benchmark
+#
+# antlr4-python3-runtime: runtime necesario para ejecutar el lexer/parser
+#                          generado por ANTLR4 en modo Python3. La versión
+#                          DEBE coincidir con la versión del .jar de ANTLR
+#                          usada para generar el código (ver Makefile).
+antlr4-python3-runtime==4.13.1
+
+# matplotlib: usado por scripts/run_benchmark.py para generar
+#             benchmark_results.png
+matplotlib>=3.7
+
+# Nota: no se listan dependencias para los drivers Java/C++ aquí porque
+# usan gestión de dependencias nativa de cada ecosistema:
+#   - Java: lib/antlr-4.13.1-complete.jar (descarga manual, ver README.md)
+#   - C++:  antlr4-cpp-runtime (instalación de sistema, ver README.md)

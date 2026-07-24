@@ -1,0 +1,3011 @@
+version: "3.8"
+services:
+  service_0000:
+    image: myrepo/app-0:1.0.0
+    ports:
+      - 8000:80
+      - 9000:9000
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=0
+    networks:
+      - net_0
+  service_0001:
+    image: myrepo/app-1:1.1.1
+    ports:
+      - 8001:81
+      - 9001:9001
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=1
+    networks:
+      - net_1
+  service_0002:
+    image: myrepo/app-2:1.2.2
+    ports:
+      - 8002:82
+      - 9002:9002
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=2
+    networks:
+      - net_2
+  service_0003:
+    image: myrepo/app-3:1.3.3
+    ports:
+      - 8003:83
+      - 9003:9003
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=3
+    networks:
+      - net_3
+  service_0004:
+    image: myrepo/app-4:1.4.4
+    ports:
+      - 8004:84
+      - 9004:9004
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=4
+    networks:
+      - net_0
+  service_0005:
+    image: myrepo/app-5:1.5.5
+    ports:
+      - 8005:85
+      - 9005:9005
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=5
+    networks:
+      - net_1
+  service_0006:
+    image: myrepo/app-6:1.6.6
+    ports:
+      - 8006:86
+      - 9006:9006
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=6
+    networks:
+      - net_2
+  service_0007:
+    image: myrepo/app-7:1.7.7
+    ports:
+      - 8007:87
+      - 9007:9007
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=7
+    networks:
+      - net_3
+  service_0008:
+    image: myrepo/app-8:1.8.8
+    ports:
+      - 8008:88
+      - 9008:9008
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=8
+    networks:
+      - net_0
+  service_0009:
+    image: myrepo/app-9:1.0.9
+    ports:
+      - 8009:89
+      - 9009:9009
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=9
+    networks:
+      - net_1
+  service_0010:
+    image: myrepo/app-10:1.1.10
+    ports:
+      - 8010:90
+      - 9010:9010
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=10
+    networks:
+      - net_2
+  service_0011:
+    image: myrepo/app-11:1.2.11
+    ports:
+      - 8011:91
+      - 9011:9011
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=11
+    networks:
+      - net_3
+  service_0012:
+    image: myrepo/app-12:1.3.0
+    ports:
+      - 8012:92
+      - 9012:9012
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=12
+    networks:
+      - net_0
+  service_0013:
+    image: myrepo/app-13:1.4.1
+    ports:
+      - 8013:93
+      - 9013:9013
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=13
+    networks:
+      - net_1
+  service_0014:
+    image: myrepo/app-14:1.5.2
+    ports:
+      - 8014:94
+      - 9014:9014
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=14
+    networks:
+      - net_2
+  service_0015:
+    image: myrepo/app-15:1.6.3
+    ports:
+      - 8015:95
+      - 9015:9015
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=15
+    networks:
+      - net_3
+  service_0016:
+    image: myrepo/app-16:1.7.4
+    ports:
+      - 8016:96
+      - 9016:9016
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=16
+    networks:
+      - net_0
+  service_0017:
+    image: myrepo/app-17:1.8.5
+    ports:
+      - 8017:97
+      - 9017:9017
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=17
+    networks:
+      - net_1
+  service_0018:
+    image: myrepo/app-18:1.0.6
+    ports:
+      - 8018:98
+      - 9018:9018
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=18
+    networks:
+      - net_2
+  service_0019:
+    image: myrepo/app-19:1.1.7
+    ports:
+      - 8019:99
+      - 9019:9019
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=19
+    networks:
+      - net_3
+  service_0020:
+    image: myrepo/app-20:1.2.8
+    ports:
+      - 8020:80
+      - 9020:9020
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=20
+    networks:
+      - net_0
+  service_0021:
+    image: myrepo/app-21:1.3.9
+    ports:
+      - 8021:81
+      - 9021:9021
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=21
+    networks:
+      - net_1
+  service_0022:
+    image: myrepo/app-22:1.4.10
+    ports:
+      - 8022:82
+      - 9022:9022
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=22
+    networks:
+      - net_2
+  service_0023:
+    image: myrepo/app-23:1.5.11
+    ports:
+      - 8023:83
+      - 9023:9023
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=23
+    networks:
+      - net_3
+  service_0024:
+    image: myrepo/app-24:1.6.0
+    ports:
+      - 8024:84
+      - 9024:9024
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=24
+    networks:
+      - net_0
+  service_0025:
+    image: myrepo/app-0:1.7.1
+    ports:
+      - 8025:85
+      - 9025:9025
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=25
+    networks:
+      - net_1
+  service_0026:
+    image: myrepo/app-1:1.8.2
+    ports:
+      - 8026:86
+      - 9026:9026
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=26
+    networks:
+      - net_2
+  service_0027:
+    image: myrepo/app-2:1.0.3
+    ports:
+      - 8027:87
+      - 9027:9027
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=27
+    networks:
+      - net_3
+  service_0028:
+    image: myrepo/app-3:1.1.4
+    ports:
+      - 8028:88
+      - 9028:9028
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=28
+    networks:
+      - net_0
+  service_0029:
+    image: myrepo/app-4:1.2.5
+    ports:
+      - 8029:89
+      - 9029:9029
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=29
+    networks:
+      - net_1
+  service_0030:
+    image: myrepo/app-5:1.3.6
+    ports:
+      - 8030:90
+      - 9030:9030
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=30
+    networks:
+      - net_2
+  service_0031:
+    image: myrepo/app-6:1.4.7
+    ports:
+      - 8031:91
+      - 9031:9031
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=31
+    networks:
+      - net_3
+  service_0032:
+    image: myrepo/app-7:1.5.8
+    ports:
+      - 8032:92
+      - 9032:9032
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=32
+    networks:
+      - net_0
+  service_0033:
+    image: myrepo/app-8:1.6.9
+    ports:
+      - 8033:93
+      - 9033:9033
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=33
+    networks:
+      - net_1
+  service_0034:
+    image: myrepo/app-9:1.7.10
+    ports:
+      - 8034:94
+      - 9034:9034
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=34
+    networks:
+      - net_2
+  service_0035:
+    image: myrepo/app-10:1.8.11
+    ports:
+      - 8035:95
+      - 9035:9035
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=35
+    networks:
+      - net_3
+  service_0036:
+    image: myrepo/app-11:1.0.0
+    ports:
+      - 8036:96
+      - 9036:9036
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=36
+    networks:
+      - net_0
+  service_0037:
+    image: myrepo/app-12:1.1.1
+    ports:
+      - 8037:97
+      - 9037:9037
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=37
+    networks:
+      - net_1
+  service_0038:
+    image: myrepo/app-13:1.2.2
+    ports:
+      - 8038:98
+      - 9038:9038
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=38
+    networks:
+      - net_2
+  service_0039:
+    image: myrepo/app-14:1.3.3
+    ports:
+      - 8039:99
+      - 9039:9039
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=39
+    networks:
+      - net_3
+  service_0040:
+    image: myrepo/app-15:1.4.4
+    ports:
+      - 8040:80
+      - 9040:9040
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=40
+    networks:
+      - net_0
+  service_0041:
+    image: myrepo/app-16:1.5.5
+    ports:
+      - 8041:81
+      - 9041:9041
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=41
+    networks:
+      - net_1
+  service_0042:
+    image: myrepo/app-17:1.6.6
+    ports:
+      - 8042:82
+      - 9042:9042
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=42
+    networks:
+      - net_2
+  service_0043:
+    image: myrepo/app-18:1.7.7
+    ports:
+      - 8043:83
+      - 9043:9043
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=43
+    networks:
+      - net_3
+  service_0044:
+    image: myrepo/app-19:1.8.8
+    ports:
+      - 8044:84
+      - 9044:9044
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=44
+    networks:
+      - net_0
+  service_0045:
+    image: myrepo/app-20:1.0.9
+    ports:
+      - 8045:85
+      - 9045:9045
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=45
+    networks:
+      - net_1
+  service_0046:
+    image: myrepo/app-21:1.1.10
+    ports:
+      - 8046:86
+      - 9046:9046
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=46
+    networks:
+      - net_2
+  service_0047:
+    image: myrepo/app-22:1.2.11
+    ports:
+      - 8047:87
+      - 9047:9047
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=47
+    networks:
+      - net_3
+  service_0048:
+    image: myrepo/app-23:1.3.0
+    ports:
+      - 8048:88
+      - 9048:9048
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=48
+    networks:
+      - net_0
+  service_0049:
+    image: myrepo/app-24:1.4.1
+    ports:
+      - 8049:89
+      - 9049:9049
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=49
+    networks:
+      - net_1
+  service_0050:
+    image: myrepo/app-0:1.5.2
+    ports:
+      - 8050:90
+      - 9050:9050
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=50
+    networks:
+      - net_2
+  service_0051:
+    image: myrepo/app-1:1.6.3
+    ports:
+      - 8051:91
+      - 9051:9051
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=51
+    networks:
+      - net_3
+  service_0052:
+    image: myrepo/app-2:1.7.4
+    ports:
+      - 8052:92
+      - 9052:9052
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=52
+    networks:
+      - net_0
+  service_0053:
+    image: myrepo/app-3:1.8.5
+    ports:
+      - 8053:93
+      - 9053:9053
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=53
+    networks:
+      - net_1
+  service_0054:
+    image: myrepo/app-4:1.0.6
+    ports:
+      - 8054:94
+      - 9054:9054
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=54
+    networks:
+      - net_2
+  service_0055:
+    image: myrepo/app-5:1.1.7
+    ports:
+      - 8055:95
+      - 9055:9055
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=55
+    networks:
+      - net_3
+  service_0056:
+    image: myrepo/app-6:1.2.8
+    ports:
+      - 8056:96
+      - 9056:9056
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=56
+    networks:
+      - net_0
+  service_0057:
+    image: myrepo/app-7:1.3.9
+    ports:
+      - 8057:97
+      - 9057:9057
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=57
+    networks:
+      - net_1
+  service_0058:
+    image: myrepo/app-8:1.4.10
+    ports:
+      - 8058:98
+      - 9058:9058
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=58
+    networks:
+      - net_2
+  service_0059:
+    image: myrepo/app-9:1.5.11
+    ports:
+      - 8059:99
+      - 9059:9059
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=59
+    networks:
+      - net_3
+  service_0060:
+    image: myrepo/app-10:1.6.0
+    ports:
+      - 8060:80
+      - 9060:9060
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=60
+    networks:
+      - net_0
+  service_0061:
+    image: myrepo/app-11:1.7.1
+    ports:
+      - 8061:81
+      - 9061:9061
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=61
+    networks:
+      - net_1
+  service_0062:
+    image: myrepo/app-12:1.8.2
+    ports:
+      - 8062:82
+      - 9062:9062
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=62
+    networks:
+      - net_2
+  service_0063:
+    image: myrepo/app-13:1.0.3
+    ports:
+      - 8063:83
+      - 9063:9063
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=63
+    networks:
+      - net_3
+  service_0064:
+    image: myrepo/app-14:1.1.4
+    ports:
+      - 8064:84
+      - 9064:9064
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=64
+    networks:
+      - net_0
+  service_0065:
+    image: myrepo/app-15:1.2.5
+    ports:
+      - 8065:85
+      - 9065:9065
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=65
+    networks:
+      - net_1
+  service_0066:
+    image: myrepo/app-16:1.3.6
+    ports:
+      - 8066:86
+      - 9066:9066
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=66
+    networks:
+      - net_2
+  service_0067:
+    image: myrepo/app-17:1.4.7
+    ports:
+      - 8067:87
+      - 9067:9067
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=67
+    networks:
+      - net_3
+  service_0068:
+    image: myrepo/app-18:1.5.8
+    ports:
+      - 8068:88
+      - 9068:9068
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=68
+    networks:
+      - net_0
+  service_0069:
+    image: myrepo/app-19:1.6.9
+    ports:
+      - 8069:89
+      - 9069:9069
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=69
+    networks:
+      - net_1
+  service_0070:
+    image: myrepo/app-20:1.7.10
+    ports:
+      - 8070:90
+      - 9070:9070
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=70
+    networks:
+      - net_2
+  service_0071:
+    image: myrepo/app-21:1.8.11
+    ports:
+      - 8071:91
+      - 9071:9071
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=71
+    networks:
+      - net_3
+  service_0072:
+    image: myrepo/app-22:1.0.0
+    ports:
+      - 8072:92
+      - 9072:9072
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=72
+    networks:
+      - net_0
+  service_0073:
+    image: myrepo/app-23:1.1.1
+    ports:
+      - 8073:93
+      - 9073:9073
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=73
+    networks:
+      - net_1
+  service_0074:
+    image: myrepo/app-24:1.2.2
+    ports:
+      - 8074:94
+      - 9074:9074
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=74
+    networks:
+      - net_2
+  service_0075:
+    image: myrepo/app-0:1.3.3
+    ports:
+      - 8075:95
+      - 9075:9075
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=75
+    networks:
+      - net_3
+  service_0076:
+    image: myrepo/app-1:1.4.4
+    ports:
+      - 8076:96
+      - 9076:9076
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=76
+    networks:
+      - net_0
+  service_0077:
+    image: myrepo/app-2:1.5.5
+    ports:
+      - 8077:97
+      - 9077:9077
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=77
+    networks:
+      - net_1
+  service_0078:
+    image: myrepo/app-3:1.6.6
+    ports:
+      - 8078:98
+      - 9078:9078
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=78
+    networks:
+      - net_2
+  service_0079:
+    image: myrepo/app-4:1.7.7
+    ports:
+      - 8079:99
+      - 9079:9079
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=79
+    networks:
+      - net_3
+  service_0080:
+    image: myrepo/app-5:1.8.8
+    ports:
+      - 8080:80
+      - 9080:9080
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=80
+    networks:
+      - net_0
+  service_0081:
+    image: myrepo/app-6:1.0.9
+    ports:
+      - 8081:81
+      - 9081:9081
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=81
+    networks:
+      - net_1
+  service_0082:
+    image: myrepo/app-7:1.1.10
+    ports:
+      - 8082:82
+      - 9082:9082
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=82
+    networks:
+      - net_2
+  service_0083:
+    image: myrepo/app-8:1.2.11
+    ports:
+      - 8083:83
+      - 9083:9083
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=83
+    networks:
+      - net_3
+  service_0084:
+    image: myrepo/app-9:1.3.0
+    ports:
+      - 8084:84
+      - 9084:9084
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=84
+    networks:
+      - net_0
+  service_0085:
+    image: myrepo/app-10:1.4.1
+    ports:
+      - 8085:85
+      - 9085:9085
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=85
+    networks:
+      - net_1
+  service_0086:
+    image: myrepo/app-11:1.5.2
+    ports:
+      - 8086:86
+      - 9086:9086
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=86
+    networks:
+      - net_2
+  service_0087:
+    image: myrepo/app-12:1.6.3
+    ports:
+      - 8087:87
+      - 9087:9087
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=87
+    networks:
+      - net_3
+  service_0088:
+    image: myrepo/app-13:1.7.4
+    ports:
+      - 8088:88
+      - 9088:9088
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=88
+    networks:
+      - net_0
+  service_0089:
+    image: myrepo/app-14:1.8.5
+    ports:
+      - 8089:89
+      - 9089:9089
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=89
+    networks:
+      - net_1
+  service_0090:
+    image: myrepo/app-15:1.0.6
+    ports:
+      - 8090:90
+      - 9090:9090
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=90
+    networks:
+      - net_2
+  service_0091:
+    image: myrepo/app-16:1.1.7
+    ports:
+      - 8091:91
+      - 9091:9091
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=91
+    networks:
+      - net_3
+  service_0092:
+    image: myrepo/app-17:1.2.8
+    ports:
+      - 8092:92
+      - 9092:9092
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=92
+    networks:
+      - net_0
+  service_0093:
+    image: myrepo/app-18:1.3.9
+    ports:
+      - 8093:93
+      - 9093:9093
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=93
+    networks:
+      - net_1
+  service_0094:
+    image: myrepo/app-19:1.4.10
+    ports:
+      - 8094:94
+      - 9094:9094
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=94
+    networks:
+      - net_2
+  service_0095:
+    image: myrepo/app-20:1.5.11
+    ports:
+      - 8095:95
+      - 9095:9095
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=95
+    networks:
+      - net_3
+  service_0096:
+    image: myrepo/app-21:1.6.0
+    ports:
+      - 8096:96
+      - 9096:9096
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=96
+    networks:
+      - net_0
+  service_0097:
+    image: myrepo/app-22:1.7.1
+    ports:
+      - 8097:97
+      - 9097:9097
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=97
+    networks:
+      - net_1
+  service_0098:
+    image: myrepo/app-23:1.8.2
+    ports:
+      - 8098:98
+      - 9098:9098
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=98
+    networks:
+      - net_2
+  service_0099:
+    image: myrepo/app-24:1.0.3
+    ports:
+      - 8099:99
+      - 9099:9099
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=99
+    networks:
+      - net_3
+  service_0100:
+    image: myrepo/app-0:1.1.4
+    ports:
+      - 8100:80
+      - 9100:9100
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=100
+    networks:
+      - net_0
+  service_0101:
+    image: myrepo/app-1:1.2.5
+    ports:
+      - 8101:81
+      - 9101:9101
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=101
+    networks:
+      - net_1
+  service_0102:
+    image: myrepo/app-2:1.3.6
+    ports:
+      - 8102:82
+      - 9102:9102
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=102
+    networks:
+      - net_2
+  service_0103:
+    image: myrepo/app-3:1.4.7
+    ports:
+      - 8103:83
+      - 9103:9103
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=103
+    networks:
+      - net_3
+  service_0104:
+    image: myrepo/app-4:1.5.8
+    ports:
+      - 8104:84
+      - 9104:9104
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=104
+    networks:
+      - net_0
+  service_0105:
+    image: myrepo/app-5:1.6.9
+    ports:
+      - 8105:85
+      - 9105:9105
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=105
+    networks:
+      - net_1
+  service_0106:
+    image: myrepo/app-6:1.7.10
+    ports:
+      - 8106:86
+      - 9106:9106
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=106
+    networks:
+      - net_2
+  service_0107:
+    image: myrepo/app-7:1.8.11
+    ports:
+      - 8107:87
+      - 9107:9107
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=107
+    networks:
+      - net_3
+  service_0108:
+    image: myrepo/app-8:1.0.0
+    ports:
+      - 8108:88
+      - 9108:9108
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=108
+    networks:
+      - net_0
+  service_0109:
+    image: myrepo/app-9:1.1.1
+    ports:
+      - 8109:89
+      - 9109:9109
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=109
+    networks:
+      - net_1
+  service_0110:
+    image: myrepo/app-10:1.2.2
+    ports:
+      - 8110:90
+      - 9110:9110
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=110
+    networks:
+      - net_2
+  service_0111:
+    image: myrepo/app-11:1.3.3
+    ports:
+      - 8111:91
+      - 9111:9111
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=111
+    networks:
+      - net_3
+  service_0112:
+    image: myrepo/app-12:1.4.4
+    ports:
+      - 8112:92
+      - 9112:9112
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=112
+    networks:
+      - net_0
+  service_0113:
+    image: myrepo/app-13:1.5.5
+    ports:
+      - 8113:93
+      - 9113:9113
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=113
+    networks:
+      - net_1
+  service_0114:
+    image: myrepo/app-14:1.6.6
+    ports:
+      - 8114:94
+      - 9114:9114
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=114
+    networks:
+      - net_2
+  service_0115:
+    image: myrepo/app-15:1.7.7
+    ports:
+      - 8115:95
+      - 9115:9115
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=115
+    networks:
+      - net_3
+  service_0116:
+    image: myrepo/app-16:1.8.8
+    ports:
+      - 8116:96
+      - 9116:9116
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=116
+    networks:
+      - net_0
+  service_0117:
+    image: myrepo/app-17:1.0.9
+    ports:
+      - 8117:97
+      - 9117:9117
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=117
+    networks:
+      - net_1
+  service_0118:
+    image: myrepo/app-18:1.1.10
+    ports:
+      - 8118:98
+      - 9118:9118
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=118
+    networks:
+      - net_2
+  service_0119:
+    image: myrepo/app-19:1.2.11
+    ports:
+      - 8119:99
+      - 9119:9119
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=119
+    networks:
+      - net_3
+  service_0120:
+    image: myrepo/app-20:1.3.0
+    ports:
+      - 8120:80
+      - 9120:9120
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=120
+    networks:
+      - net_0
+  service_0121:
+    image: myrepo/app-21:1.4.1
+    ports:
+      - 8121:81
+      - 9121:9121
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=121
+    networks:
+      - net_1
+  service_0122:
+    image: myrepo/app-22:1.5.2
+    ports:
+      - 8122:82
+      - 9122:9122
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=122
+    networks:
+      - net_2
+  service_0123:
+    image: myrepo/app-23:1.6.3
+    ports:
+      - 8123:83
+      - 9123:9123
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=123
+    networks:
+      - net_3
+  service_0124:
+    image: myrepo/app-24:1.7.4
+    ports:
+      - 8124:84
+      - 9124:9124
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=124
+    networks:
+      - net_0
+  service_0125:
+    image: myrepo/app-0:1.8.5
+    ports:
+      - 8125:85
+      - 9125:9125
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=125
+    networks:
+      - net_1
+  service_0126:
+    image: myrepo/app-1:1.0.6
+    ports:
+      - 8126:86
+      - 9126:9126
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=126
+    networks:
+      - net_2
+  service_0127:
+    image: myrepo/app-2:1.1.7
+    ports:
+      - 8127:87
+      - 9127:9127
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=127
+    networks:
+      - net_3
+  service_0128:
+    image: myrepo/app-3:1.2.8
+    ports:
+      - 8128:88
+      - 9128:9128
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=128
+    networks:
+      - net_0
+  service_0129:
+    image: myrepo/app-4:1.3.9
+    ports:
+      - 8129:89
+      - 9129:9129
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=129
+    networks:
+      - net_1
+  service_0130:
+    image: myrepo/app-5:1.4.10
+    ports:
+      - 8130:90
+      - 9130:9130
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=130
+    networks:
+      - net_2
+  service_0131:
+    image: myrepo/app-6:1.5.11
+    ports:
+      - 8131:91
+      - 9131:9131
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=131
+    networks:
+      - net_3
+  service_0132:
+    image: myrepo/app-7:1.6.0
+    ports:
+      - 8132:92
+      - 9132:9132
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=132
+    networks:
+      - net_0
+  service_0133:
+    image: myrepo/app-8:1.7.1
+    ports:
+      - 8133:93
+      - 9133:9133
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=133
+    networks:
+      - net_1
+  service_0134:
+    image: myrepo/app-9:1.8.2
+    ports:
+      - 8134:94
+      - 9134:9134
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=134
+    networks:
+      - net_2
+  service_0135:
+    image: myrepo/app-10:1.0.3
+    ports:
+      - 8135:95
+      - 9135:9135
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=135
+    networks:
+      - net_3
+  service_0136:
+    image: myrepo/app-11:1.1.4
+    ports:
+      - 8136:96
+      - 9136:9136
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=136
+    networks:
+      - net_0
+  service_0137:
+    image: myrepo/app-12:1.2.5
+    ports:
+      - 8137:97
+      - 9137:9137
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=137
+    networks:
+      - net_1
+  service_0138:
+    image: myrepo/app-13:1.3.6
+    ports:
+      - 8138:98
+      - 9138:9138
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=138
+    networks:
+      - net_2
+  service_0139:
+    image: myrepo/app-14:1.4.7
+    ports:
+      - 8139:99
+      - 9139:9139
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=139
+    networks:
+      - net_3
+  service_0140:
+    image: myrepo/app-15:1.5.8
+    ports:
+      - 8140:80
+      - 9140:9140
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=140
+    networks:
+      - net_0
+  service_0141:
+    image: myrepo/app-16:1.6.9
+    ports:
+      - 8141:81
+      - 9141:9141
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=141
+    networks:
+      - net_1
+  service_0142:
+    image: myrepo/app-17:1.7.10
+    ports:
+      - 8142:82
+      - 9142:9142
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=142
+    networks:
+      - net_2
+  service_0143:
+    image: myrepo/app-18:1.8.11
+    ports:
+      - 8143:83
+      - 9143:9143
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=143
+    networks:
+      - net_3
+  service_0144:
+    image: myrepo/app-19:1.0.0
+    ports:
+      - 8144:84
+      - 9144:9144
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=144
+    networks:
+      - net_0
+  service_0145:
+    image: myrepo/app-20:1.1.1
+    ports:
+      - 8145:85
+      - 9145:9145
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=145
+    networks:
+      - net_1
+  service_0146:
+    image: myrepo/app-21:1.2.2
+    ports:
+      - 8146:86
+      - 9146:9146
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=146
+    networks:
+      - net_2
+  service_0147:
+    image: myrepo/app-22:1.3.3
+    ports:
+      - 8147:87
+      - 9147:9147
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=147
+    networks:
+      - net_3
+  service_0148:
+    image: myrepo/app-23:1.4.4
+    ports:
+      - 8148:88
+      - 9148:9148
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=148
+    networks:
+      - net_0
+  service_0149:
+    image: myrepo/app-24:1.5.5
+    ports:
+      - 8149:89
+      - 9149:9149
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=149
+    networks:
+      - net_1
+  service_0150:
+    image: myrepo/app-0:1.6.6
+    ports:
+      - 8150:90
+      - 9150:9150
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=150
+    networks:
+      - net_2
+  service_0151:
+    image: myrepo/app-1:1.7.7
+    ports:
+      - 8151:91
+      - 9151:9151
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=151
+    networks:
+      - net_3
+  service_0152:
+    image: myrepo/app-2:1.8.8
+    ports:
+      - 8152:92
+      - 9152:9152
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=152
+    networks:
+      - net_0
+  service_0153:
+    image: myrepo/app-3:1.0.9
+    ports:
+      - 8153:93
+      - 9153:9153
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=153
+    networks:
+      - net_1
+  service_0154:
+    image: myrepo/app-4:1.1.10
+    ports:
+      - 8154:94
+      - 9154:9154
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=154
+    networks:
+      - net_2
+  service_0155:
+    image: myrepo/app-5:1.2.11
+    ports:
+      - 8155:95
+      - 9155:9155
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=155
+    networks:
+      - net_3
+  service_0156:
+    image: myrepo/app-6:1.3.0
+    ports:
+      - 8156:96
+      - 9156:9156
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=156
+    networks:
+      - net_0
+  service_0157:
+    image: myrepo/app-7:1.4.1
+    ports:
+      - 8157:97
+      - 9157:9157
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=157
+    networks:
+      - net_1
+  service_0158:
+    image: myrepo/app-8:1.5.2
+    ports:
+      - 8158:98
+      - 9158:9158
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=158
+    networks:
+      - net_2
+  service_0159:
+    image: myrepo/app-9:1.6.3
+    ports:
+      - 8159:99
+      - 9159:9159
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=159
+    networks:
+      - net_3
+  service_0160:
+    image: myrepo/app-10:1.7.4
+    ports:
+      - 8160:80
+      - 9160:9160
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=160
+    networks:
+      - net_0
+  service_0161:
+    image: myrepo/app-11:1.8.5
+    ports:
+      - 8161:81
+      - 9161:9161
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=161
+    networks:
+      - net_1
+  service_0162:
+    image: myrepo/app-12:1.0.6
+    ports:
+      - 8162:82
+      - 9162:9162
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=162
+    networks:
+      - net_2
+  service_0163:
+    image: myrepo/app-13:1.1.7
+    ports:
+      - 8163:83
+      - 9163:9163
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=163
+    networks:
+      - net_3
+  service_0164:
+    image: myrepo/app-14:1.2.8
+    ports:
+      - 8164:84
+      - 9164:9164
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=164
+    networks:
+      - net_0
+  service_0165:
+    image: myrepo/app-15:1.3.9
+    ports:
+      - 8165:85
+      - 9165:9165
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=165
+    networks:
+      - net_1
+  service_0166:
+    image: myrepo/app-16:1.4.10
+    ports:
+      - 8166:86
+      - 9166:9166
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=166
+    networks:
+      - net_2
+  service_0167:
+    image: myrepo/app-17:1.5.11
+    ports:
+      - 8167:87
+      - 9167:9167
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=167
+    networks:
+      - net_3
+  service_0168:
+    image: myrepo/app-18:1.6.0
+    ports:
+      - 8168:88
+      - 9168:9168
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=168
+    networks:
+      - net_0
+  service_0169:
+    image: myrepo/app-19:1.7.1
+    ports:
+      - 8169:89
+      - 9169:9169
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=169
+    networks:
+      - net_1
+  service_0170:
+    image: myrepo/app-20:1.8.2
+    ports:
+      - 8170:90
+      - 9170:9170
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=170
+    networks:
+      - net_2
+  service_0171:
+    image: myrepo/app-21:1.0.3
+    ports:
+      - 8171:91
+      - 9171:9171
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=171
+    networks:
+      - net_3
+  service_0172:
+    image: myrepo/app-22:1.1.4
+    ports:
+      - 8172:92
+      - 9172:9172
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=172
+    networks:
+      - net_0
+  service_0173:
+    image: myrepo/app-23:1.2.5
+    ports:
+      - 8173:93
+      - 9173:9173
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=173
+    networks:
+      - net_1
+  service_0174:
+    image: myrepo/app-24:1.3.6
+    ports:
+      - 8174:94
+      - 9174:9174
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=174
+    networks:
+      - net_2
+  service_0175:
+    image: myrepo/app-0:1.4.7
+    ports:
+      - 8175:95
+      - 9175:9175
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=175
+    networks:
+      - net_3
+  service_0176:
+    image: myrepo/app-1:1.5.8
+    ports:
+      - 8176:96
+      - 9176:9176
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=176
+    networks:
+      - net_0
+  service_0177:
+    image: myrepo/app-2:1.6.9
+    ports:
+      - 8177:97
+      - 9177:9177
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=177
+    networks:
+      - net_1
+  service_0178:
+    image: myrepo/app-3:1.7.10
+    ports:
+      - 8178:98
+      - 9178:9178
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=178
+    networks:
+      - net_2
+  service_0179:
+    image: myrepo/app-4:1.8.11
+    ports:
+      - 8179:99
+      - 9179:9179
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=179
+    networks:
+      - net_3
+  service_0180:
+    image: myrepo/app-5:1.0.0
+    ports:
+      - 8180:80
+      - 9180:9180
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=180
+    networks:
+      - net_0
+  service_0181:
+    image: myrepo/app-6:1.1.1
+    ports:
+      - 8181:81
+      - 9181:9181
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=181
+    networks:
+      - net_1
+  service_0182:
+    image: myrepo/app-7:1.2.2
+    ports:
+      - 8182:82
+      - 9182:9182
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=182
+    networks:
+      - net_2
+  service_0183:
+    image: myrepo/app-8:1.3.3
+    ports:
+      - 8183:83
+      - 9183:9183
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=183
+    networks:
+      - net_3
+  service_0184:
+    image: myrepo/app-9:1.4.4
+    ports:
+      - 8184:84
+      - 9184:9184
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=184
+    networks:
+      - net_0
+  service_0185:
+    image: myrepo/app-10:1.5.5
+    ports:
+      - 8185:85
+      - 9185:9185
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=185
+    networks:
+      - net_1
+  service_0186:
+    image: myrepo/app-11:1.6.6
+    ports:
+      - 8186:86
+      - 9186:9186
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=186
+    networks:
+      - net_2
+  service_0187:
+    image: myrepo/app-12:1.7.7
+    ports:
+      - 8187:87
+      - 9187:9187
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=187
+    networks:
+      - net_3
+  service_0188:
+    image: myrepo/app-13:1.8.8
+    ports:
+      - 8188:88
+      - 9188:9188
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=188
+    networks:
+      - net_0
+  service_0189:
+    image: myrepo/app-14:1.0.9
+    ports:
+      - 8189:89
+      - 9189:9189
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=189
+    networks:
+      - net_1
+  service_0190:
+    image: myrepo/app-15:1.1.10
+    ports:
+      - 8190:90
+      - 9190:9190
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=190
+    networks:
+      - net_2
+  service_0191:
+    image: myrepo/app-16:1.2.11
+    ports:
+      - 8191:91
+      - 9191:9191
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=191
+    networks:
+      - net_3
+  service_0192:
+    image: myrepo/app-17:1.3.0
+    ports:
+      - 8192:92
+      - 9192:9192
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=192
+    networks:
+      - net_0
+  service_0193:
+    image: myrepo/app-18:1.4.1
+    ports:
+      - 8193:93
+      - 9193:9193
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=193
+    networks:
+      - net_1
+  service_0194:
+    image: myrepo/app-19:1.5.2
+    ports:
+      - 8194:94
+      - 9194:9194
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=194
+    networks:
+      - net_2
+  service_0195:
+    image: myrepo/app-20:1.6.3
+    ports:
+      - 8195:95
+      - 9195:9195
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=195
+    networks:
+      - net_3
+  service_0196:
+    image: myrepo/app-21:1.7.4
+    ports:
+      - 8196:96
+      - 9196:9196
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=196
+    networks:
+      - net_0
+  service_0197:
+    image: myrepo/app-22:1.8.5
+    ports:
+      - 8197:97
+      - 9197:9197
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=197
+    networks:
+      - net_1
+  service_0198:
+    image: myrepo/app-23:1.0.6
+    ports:
+      - 8198:98
+      - 9198:9198
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=198
+    networks:
+      - net_2
+  service_0199:
+    image: myrepo/app-24:1.1.7
+    ports:
+      - 8199:99
+      - 9199:9199
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=199
+    networks:
+      - net_3
+  service_0200:
+    image: myrepo/app-0:1.2.8
+    ports:
+      - 8200:80
+      - 9200:9200
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=200
+    networks:
+      - net_0
+  service_0201:
+    image: myrepo/app-1:1.3.9
+    ports:
+      - 8201:81
+      - 9201:9201
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=201
+    networks:
+      - net_1
+  service_0202:
+    image: myrepo/app-2:1.4.10
+    ports:
+      - 8202:82
+      - 9202:9202
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=202
+    networks:
+      - net_2
+  service_0203:
+    image: myrepo/app-3:1.5.11
+    ports:
+      - 8203:83
+      - 9203:9203
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=203
+    networks:
+      - net_3
+  service_0204:
+    image: myrepo/app-4:1.6.0
+    ports:
+      - 8204:84
+      - 9204:9204
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=204
+    networks:
+      - net_0
+  service_0205:
+    image: myrepo/app-5:1.7.1
+    ports:
+      - 8205:85
+      - 9205:9205
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=205
+    networks:
+      - net_1
+  service_0206:
+    image: myrepo/app-6:1.8.2
+    ports:
+      - 8206:86
+      - 9206:9206
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=206
+    networks:
+      - net_2
+  service_0207:
+    image: myrepo/app-7:1.0.3
+    ports:
+      - 8207:87
+      - 9207:9207
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=207
+    networks:
+      - net_3
+  service_0208:
+    image: myrepo/app-8:1.1.4
+    ports:
+      - 8208:88
+      - 9208:9208
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=208
+    networks:
+      - net_0
+  service_0209:
+    image: myrepo/app-9:1.2.5
+    ports:
+      - 8209:89
+      - 9209:9209
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=209
+    networks:
+      - net_1
+  service_0210:
+    image: myrepo/app-10:1.3.6
+    ports:
+      - 8210:90
+      - 9210:9210
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=210
+    networks:
+      - net_2
+  service_0211:
+    image: myrepo/app-11:1.4.7
+    ports:
+      - 8211:91
+      - 9211:9211
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=211
+    networks:
+      - net_3
+  service_0212:
+    image: myrepo/app-12:1.5.8
+    ports:
+      - 8212:92
+      - 9212:9212
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=212
+    networks:
+      - net_0
+  service_0213:
+    image: myrepo/app-13:1.6.9
+    ports:
+      - 8213:93
+      - 9213:9213
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=213
+    networks:
+      - net_1
+  service_0214:
+    image: myrepo/app-14:1.7.10
+    ports:
+      - 8214:94
+      - 9214:9214
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=214
+    networks:
+      - net_2
+  service_0215:
+    image: myrepo/app-15:1.8.11
+    ports:
+      - 8215:95
+      - 9215:9215
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=215
+    networks:
+      - net_3
+  service_0216:
+    image: myrepo/app-16:1.0.0
+    ports:
+      - 8216:96
+      - 9216:9216
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=216
+    networks:
+      - net_0
+  service_0217:
+    image: myrepo/app-17:1.1.1
+    ports:
+      - 8217:97
+      - 9217:9217
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=217
+    networks:
+      - net_1
+  service_0218:
+    image: myrepo/app-18:1.2.2
+    ports:
+      - 8218:98
+      - 9218:9218
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=218
+    networks:
+      - net_2
+  service_0219:
+    image: myrepo/app-19:1.3.3
+    ports:
+      - 8219:99
+      - 9219:9219
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=219
+    networks:
+      - net_3
+  service_0220:
+    image: myrepo/app-20:1.4.4
+    ports:
+      - 8220:80
+      - 9220:9220
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=220
+    networks:
+      - net_0
+  service_0221:
+    image: myrepo/app-21:1.5.5
+    ports:
+      - 8221:81
+      - 9221:9221
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=221
+    networks:
+      - net_1
+  service_0222:
+    image: myrepo/app-22:1.6.6
+    ports:
+      - 8222:82
+      - 9222:9222
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=222
+    networks:
+      - net_2
+  service_0223:
+    image: myrepo/app-23:1.7.7
+    ports:
+      - 8223:83
+      - 9223:9223
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=223
+    networks:
+      - net_3
+  service_0224:
+    image: myrepo/app-24:1.8.8
+    ports:
+      - 8224:84
+      - 9224:9224
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=224
+    networks:
+      - net_0
+  service_0225:
+    image: myrepo/app-0:1.0.9
+    ports:
+      - 8225:85
+      - 9225:9225
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=225
+    networks:
+      - net_1
+  service_0226:
+    image: myrepo/app-1:1.1.10
+    ports:
+      - 8226:86
+      - 9226:9226
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=226
+    networks:
+      - net_2
+  service_0227:
+    image: myrepo/app-2:1.2.11
+    ports:
+      - 8227:87
+      - 9227:9227
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=227
+    networks:
+      - net_3
+  service_0228:
+    image: myrepo/app-3:1.3.0
+    ports:
+      - 8228:88
+      - 9228:9228
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=228
+    networks:
+      - net_0
+  service_0229:
+    image: myrepo/app-4:1.4.1
+    ports:
+      - 8229:89
+      - 9229:9229
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=229
+    networks:
+      - net_1
+  service_0230:
+    image: myrepo/app-5:1.5.2
+    ports:
+      - 8230:90
+      - 9230:9230
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=230
+    networks:
+      - net_2
+  service_0231:
+    image: myrepo/app-6:1.6.3
+    ports:
+      - 8231:91
+      - 9231:9231
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=231
+    networks:
+      - net_3
+  service_0232:
+    image: myrepo/app-7:1.7.4
+    ports:
+      - 8232:92
+      - 9232:9232
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=232
+    networks:
+      - net_0
+  service_0233:
+    image: myrepo/app-8:1.8.5
+    ports:
+      - 8233:93
+      - 9233:9233
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=233
+    networks:
+      - net_1
+  service_0234:
+    image: myrepo/app-9:1.0.6
+    ports:
+      - 8234:94
+      - 9234:9234
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=234
+    networks:
+      - net_2
+  service_0235:
+    image: myrepo/app-10:1.1.7
+    ports:
+      - 8235:95
+      - 9235:9235
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=235
+    networks:
+      - net_3
+  service_0236:
+    image: myrepo/app-11:1.2.8
+    ports:
+      - 8236:96
+      - 9236:9236
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=236
+    networks:
+      - net_0
+  service_0237:
+    image: myrepo/app-12:1.3.9
+    ports:
+      - 8237:97
+      - 9237:9237
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=237
+    networks:
+      - net_1
+  service_0238:
+    image: myrepo/app-13:1.4.10
+    ports:
+      - 8238:98
+      - 9238:9238
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=238
+    networks:
+      - net_2
+  service_0239:
+    image: myrepo/app-14:1.5.11
+    ports:
+      - 8239:99
+      - 9239:9239
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=239
+    networks:
+      - net_3
+  service_0240:
+    image: myrepo/app-15:1.6.0
+    ports:
+      - 8240:80
+      - 9240:9240
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=240
+    networks:
+      - net_0
+  service_0241:
+    image: myrepo/app-16:1.7.1
+    ports:
+      - 8241:81
+      - 9241:9241
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=241
+    networks:
+      - net_1
+  service_0242:
+    image: myrepo/app-17:1.8.2
+    ports:
+      - 8242:82
+      - 9242:9242
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=242
+    networks:
+      - net_2
+  service_0243:
+    image: myrepo/app-18:1.0.3
+    ports:
+      - 8243:83
+      - 9243:9243
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=243
+    networks:
+      - net_3
+  service_0244:
+    image: myrepo/app-19:1.1.4
+    ports:
+      - 8244:84
+      - 9244:9244
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=244
+    networks:
+      - net_0
+  service_0245:
+    image: myrepo/app-20:1.2.5
+    ports:
+      - 8245:85
+      - 9245:9245
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=245
+    networks:
+      - net_1
+  service_0246:
+    image: myrepo/app-21:1.3.6
+    ports:
+      - 8246:86
+      - 9246:9246
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=246
+    networks:
+      - net_2
+  service_0247:
+    image: myrepo/app-22:1.4.7
+    ports:
+      - 8247:87
+      - 9247:9247
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=247
+    networks:
+      - net_3
+  service_0248:
+    image: myrepo/app-23:1.5.8
+    ports:
+      - 8248:88
+      - 9248:9248
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=248
+    networks:
+      - net_0
+  service_0249:
+    image: myrepo/app-24:1.6.9
+    ports:
+      - 8249:89
+      - 9249:9249
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=249
+    networks:
+      - net_1
+  service_0250:
+    image: myrepo/app-0:1.7.10
+    ports:
+      - 8250:90
+      - 9250:9250
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=250
+    networks:
+      - net_2
+  service_0251:
+    image: myrepo/app-1:1.8.11
+    ports:
+      - 8251:91
+      - 9251:9251
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=251
+    networks:
+      - net_3
+  service_0252:
+    image: myrepo/app-2:1.0.0
+    ports:
+      - 8252:92
+      - 9252:9252
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=252
+    networks:
+      - net_0
+  service_0253:
+    image: myrepo/app-3:1.1.1
+    ports:
+      - 8253:93
+      - 9253:9253
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=253
+    networks:
+      - net_1
+  service_0254:
+    image: myrepo/app-4:1.2.2
+    ports:
+      - 8254:94
+      - 9254:9254
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=254
+    networks:
+      - net_2
+  service_0255:
+    image: myrepo/app-5:1.3.3
+    ports:
+      - 8255:95
+      - 9255:9255
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=255
+    networks:
+      - net_3
+  service_0256:
+    image: myrepo/app-6:1.4.4
+    ports:
+      - 8256:96
+      - 9256:9256
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=256
+    networks:
+      - net_0
+  service_0257:
+    image: myrepo/app-7:1.5.5
+    ports:
+      - 8257:97
+      - 9257:9257
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=257
+    networks:
+      - net_1
+  service_0258:
+    image: myrepo/app-8:1.6.6
+    ports:
+      - 8258:98
+      - 9258:9258
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=258
+    networks:
+      - net_2
+  service_0259:
+    image: myrepo/app-9:1.7.7
+    ports:
+      - 8259:99
+      - 9259:9259
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=259
+    networks:
+      - net_3
+  service_0260:
+    image: myrepo/app-10:1.8.8
+    ports:
+      - 8260:80
+      - 9260:9260
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=260
+    networks:
+      - net_0
+  service_0261:
+    image: myrepo/app-11:1.0.9
+    ports:
+      - 8261:81
+      - 9261:9261
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=261
+    networks:
+      - net_1
+  service_0262:
+    image: myrepo/app-12:1.1.10
+    ports:
+      - 8262:82
+      - 9262:9262
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=262
+    networks:
+      - net_2
+  service_0263:
+    image: myrepo/app-13:1.2.11
+    ports:
+      - 8263:83
+      - 9263:9263
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=263
+    networks:
+      - net_3
+  service_0264:
+    image: myrepo/app-14:1.3.0
+    ports:
+      - 8264:84
+      - 9264:9264
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=264
+    networks:
+      - net_0
+  service_0265:
+    image: myrepo/app-15:1.4.1
+    ports:
+      - 8265:85
+      - 9265:9265
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=265
+    networks:
+      - net_1
+  service_0266:
+    image: myrepo/app-16:1.5.2
+    ports:
+      - 8266:86
+      - 9266:9266
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=266
+    networks:
+      - net_2
+  service_0267:
+    image: myrepo/app-17:1.6.3
+    ports:
+      - 8267:87
+      - 9267:9267
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=267
+    networks:
+      - net_3
+  service_0268:
+    image: myrepo/app-18:1.7.4
+    ports:
+      - 8268:88
+      - 9268:9268
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=268
+    networks:
+      - net_0
+  service_0269:
+    image: myrepo/app-19:1.8.5
+    ports:
+      - 8269:89
+      - 9269:9269
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=269
+    networks:
+      - net_1
+  service_0270:
+    image: myrepo/app-20:1.0.6
+    ports:
+      - 8270:90
+      - 9270:9270
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=270
+    networks:
+      - net_2
+  service_0271:
+    image: myrepo/app-21:1.1.7
+    ports:
+      - 8271:91
+      - 9271:9271
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=271
+    networks:
+      - net_3
+  service_0272:
+    image: myrepo/app-22:1.2.8
+    ports:
+      - 8272:92
+      - 9272:9272
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=272
+    networks:
+      - net_0
+  service_0273:
+    image: myrepo/app-23:1.3.9
+    ports:
+      - 8273:93
+      - 9273:9273
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=273
+    networks:
+      - net_1
+  service_0274:
+    image: myrepo/app-24:1.4.10
+    ports:
+      - 8274:94
+      - 9274:9274
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=274
+    networks:
+      - net_2
+  service_0275:
+    image: myrepo/app-0:1.5.11
+    ports:
+      - 8275:95
+      - 9275:9275
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=275
+    networks:
+      - net_3
+  service_0276:
+    image: myrepo/app-1:1.6.0
+    ports:
+      - 8276:96
+      - 9276:9276
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=276
+    networks:
+      - net_0
+  service_0277:
+    image: myrepo/app-2:1.7.1
+    ports:
+      - 8277:97
+      - 9277:9277
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=277
+    networks:
+      - net_1
+  service_0278:
+    image: myrepo/app-3:1.8.2
+    ports:
+      - 8278:98
+      - 9278:9278
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=278
+    networks:
+      - net_2
+  service_0279:
+    image: myrepo/app-4:1.0.3
+    ports:
+      - 8279:99
+      - 9279:9279
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=279
+    networks:
+      - net_3
+  service_0280:
+    image: myrepo/app-5:1.1.4
+    ports:
+      - 8280:80
+      - 9280:9280
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=280
+    networks:
+      - net_0
+  service_0281:
+    image: myrepo/app-6:1.2.5
+    ports:
+      - 8281:81
+      - 9281:9281
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=281
+    networks:
+      - net_1
+  service_0282:
+    image: myrepo/app-7:1.3.6
+    ports:
+      - 8282:82
+      - 9282:9282
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=282
+    networks:
+      - net_2
+  service_0283:
+    image: myrepo/app-8:1.4.7
+    ports:
+      - 8283:83
+      - 9283:9283
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=283
+    networks:
+      - net_3
+  service_0284:
+    image: myrepo/app-9:1.5.8
+    ports:
+      - 8284:84
+      - 9284:9284
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=284
+    networks:
+      - net_0
+  service_0285:
+    image: myrepo/app-10:1.6.9
+    ports:
+      - 8285:85
+      - 9285:9285
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=285
+    networks:
+      - net_1
+  service_0286:
+    image: myrepo/app-11:1.7.10
+    ports:
+      - 8286:86
+      - 9286:9286
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=286
+    networks:
+      - net_2
+  service_0287:
+    image: myrepo/app-12:1.8.11
+    ports:
+      - 8287:87
+      - 9287:9287
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=287
+    networks:
+      - net_3
+  service_0288:
+    image: myrepo/app-13:1.0.0
+    ports:
+      - 8288:88
+      - 9288:9288
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=288
+    networks:
+      - net_0
+  service_0289:
+    image: myrepo/app-14:1.1.1
+    ports:
+      - 8289:89
+      - 9289:9289
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=289
+    networks:
+      - net_1
+  service_0290:
+    image: myrepo/app-15:1.2.2
+    ports:
+      - 8290:90
+      - 9290:9290
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=290
+    networks:
+      - net_2
+  service_0291:
+    image: myrepo/app-16:1.3.3
+    ports:
+      - 8291:91
+      - 9291:9291
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=291
+    networks:
+      - net_3
+  service_0292:
+    image: myrepo/app-17:1.4.4
+    ports:
+      - 8292:92
+      - 9292:9292
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=292
+    networks:
+      - net_0
+  service_0293:
+    image: myrepo/app-18:1.5.5
+    ports:
+      - 8293:93
+      - 9293:9293
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=293
+    networks:
+      - net_1
+  service_0294:
+    image: myrepo/app-19:1.6.6
+    ports:
+      - 8294:94
+      - 9294:9294
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=294
+    networks:
+      - net_2
+  service_0295:
+    image: myrepo/app-20:1.7.7
+    ports:
+      - 8295:95
+      - 9295:9295
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=295
+    networks:
+      - net_3
+  service_0296:
+    image: myrepo/app-21:1.8.8
+    ports:
+      - 8296:96
+      - 9296:9296
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=296
+    networks:
+      - net_0
+  service_0297:
+    image: myrepo/app-22:1.0.9
+    ports:
+      - 8297:97
+      - 9297:9297
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=297
+    networks:
+      - net_1
+  service_0298:
+    image: myrepo/app-23:1.1.10
+    ports:
+      - 8298:98
+      - 9298:9298
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=298
+    networks:
+      - net_2
+  service_0299:
+    image: myrepo/app-24:1.2.11
+    ports:
+      - 8299:99
+      - 9299:9299
+    environment:
+      - ENV_MODE=production
+      - SERVICE_ID=299
+    networks:
+      - net_3
+networks:
+  net_0:
+    driver: bridge
+  net_1:
+    driver: overlay
+  net_2:
+    driver: bridge
+  net_3:
+    driver: host
